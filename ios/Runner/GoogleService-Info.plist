@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>705577277313-j4jkgauf7758o9ap2n2bsedqesbnr730.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.705577277313-j4jkgauf7758o9ap2n2bsedqesbnr730</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>705577277313-eb9fakkimt9ft4l2ipaiobumd9tpo0t0.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAsIBGbw4aGVEMGInnkufmO8jYlamp-Jmk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>705577277313</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.fs.getplus</string>
+	<key>PROJECT_ID</key>
+	<string>thekittyclub-ddc4d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>thekittyclub-ddc4d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:705577277313:ios:6cf3310540cc44a2853a80</string>
+</dict>
+</plist>
