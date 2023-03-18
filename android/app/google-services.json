@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "303105661123",
+    "project_id": "plus-survey-android",
+    "storage_bucket": "plus-survey-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303105661123:android:eec3eb45ef8cdf44c2ea76",
+        "android_client_info": {
+          "package_name": "com.fs.getplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303105661123-j6fper764fceeporhk1r1ukj5pglc0o4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPoJX1Oa5afMwxVFx8BihadNHiFLFvflA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303105661123-j6fper764fceeporhk1r1ukj5pglc0o4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "303105661123-1654a38gm2g9degs4jujfarhpj6e74bt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.plusSurveyV1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

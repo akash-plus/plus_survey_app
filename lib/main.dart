@@ -1,16 +1,26 @@
 import 'dart:convert';
 import 'dart:io';
+import 'firebase_options.dart';
+import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:PLUS/Routes/routes.dart';
+import 'package:firebase_core/firebase_core.dart';
+
+import 'firebase_options.dart';
 import 'package:PLUS/Utils/cofig.dart';
 import 'package:PLUS/Utils/constant_text.dart';
-import 'package:PLUS/Utils/constants.dart';
+// import 'package:PLUS/Utils/constants.dart';
 import 'package:PLUS/styles/colors.dart';
 import 'package:upgrader/upgrader.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 

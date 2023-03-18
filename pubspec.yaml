@@ -3,7 +3,7 @@ description: A new Flutter project.
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
-version: 1.0.0+1
+version: 1.1.1+2
 
 environment:
   sdk: '>=2.19.2 <3.0.0'
@@ -13,7 +13,7 @@ dependencies:
   get: ^4.3.8
   get_storage: ^2.0.3
   dio: ^4.0.1
-  upgrader: ^5.0.0
+  upgrader: ^6.2.0
   url_launcher: ^6.0.9
   google_fonts: ^3.0.1
   # flutter_svg: ^0.22.0
@@ -21,6 +21,8 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  firebase_crashlytics: ^3.0.17
+  firebase_core: ^2.8.0
 
 dev_dependencies:
   flutter_test:

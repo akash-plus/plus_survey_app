@@ -20,7 +20,7 @@ class _SurveySubmittedState extends State<SurveySubmitted> {
               "assets/allimages/splash_image_4.png",
               height: 250,
             ),
-            Text(
+            const Text(
               "THANK YOU",
               textAlign: TextAlign.center,
               textScaleFactor: 1.0,
@@ -29,10 +29,10 @@ class _SurveySubmittedState extends State<SurveySubmitted> {
                   fontWeight: FontWeight.w700,
                   color: Colors.black),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20.0,
             ),
-            Icon(
+            const Icon(
               Icons.check,
               color: Colors.green,
               size: 60,
@@ -40,7 +40,7 @@ class _SurveySubmittedState extends State<SurveySubmitted> {
             SizedBox(
               height: 20.0,
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.symmetric(horizontal: 20.0),
               child: Text(
                 "Thanks a bunch for filling that out. It means a lot to us, just like you do! We really appreciate you giving us a moment of your time today. Thanks for being you.",
@@ -53,12 +53,12 @@ class _SurveySubmittedState extends State<SurveySubmitted> {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 30.0,
             ),
             InkWell(
               onTap: () => launchUrl(Uri.parse('https://getplus.in/FAQs.html')),
-              child: Text(
+              child: const Text(
                 'Learn more',
                 style: TextStyle(
                   color: Colors.amber,

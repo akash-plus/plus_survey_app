@@ -1,4 +1,4 @@
-package com.example.plus_survey_v1
+package com.fs.getplus
 
 import io.flutter.embedding.android.FlutterActivity
 

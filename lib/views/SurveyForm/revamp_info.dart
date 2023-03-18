@@ -76,6 +76,13 @@ class _Revamp_InfoState extends State<Revamp_Info> {
                 textStyle:
                     TextStyle(fontSize: 20, fontWeight: FontWeight.w700)),
           ),
+          // SizedBox(
+          //   height: 10,
+          // ),
+          // TextButton(
+          //   onPressed: () => throw Exception(),
+          //   child: const Text("Throw Test Exception"),
+          // ),
         ],
       ),
     );

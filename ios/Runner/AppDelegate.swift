@@ -1,6 +1,6 @@
 import UIKit
-import CleverTapSDK
-import clevertap_plugin
+// import CleverTapSDK
+// import clevertap_plugin
 import Flutter
 
 @UIApplicationMain
@@ -11,9 +11,9 @@ import Flutter
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
     GeneratedPluginRegistrant.register(with: self)
-    CleverTap.autoIntegrate() // integrate CleverTap SDK using the autoIntegrate option
+    // CleverTap.autoIntegrate() // integrate CleverTap SDK using the autoIntegrate option
     // CleverTapPlugin.registerForPush();
-    CleverTapPlugin.sharedInstance()?.applicationDidLaunch(options: launchOptions)
+    // CleverTapPlugin.sharedInstance()?.applicationDidLaunch(options: launchOptions)
       //2. Place the following 6 lines of code.
         let flutterViewController: FlutterViewController = window?.rootViewController as! FlutterViewController
         self.navigationController = UINavigationController(rootViewController: flutterViewController);

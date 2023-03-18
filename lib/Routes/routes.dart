@@ -12,6 +12,6 @@ abstract class Routes {
 
 abstract class AppPages {
   static final pages = [
-    GetPage(name: Routes.SURVEY_FORM, page: () => Revamp_Info()),
+    GetPage(name: Routes.SURVEY_FORM, page: () => const Revamp_Info()),
   ];
 }
